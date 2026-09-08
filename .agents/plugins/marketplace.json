@@ -1,0 +1,20 @@
+{
+  "name": "pronghorn",
+  "interface": {
+    "displayName": "PronghornAiFoundry"
+  },
+  "plugins": [
+    {
+      "name": "pronghorn-ai-foundry",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pronghorn-ai-foundry"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

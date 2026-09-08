@@ -1,0 +1,40 @@
+{
+  "name": "pronghorn-ai-foundry",
+  "version": "0.8.1",
+  "description": "Ask questions about Pronghorn's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
+  "author": {
+    "name": "VibeFoundry",
+    "url": "https://vibefoundry.ai"
+  },
+  "homepage": "https://vibefoundry.ai",
+  "repository": "https://github.com/vibefoundry/pronghorn-ai-foundry-plugin",
+  "license": "MIT",
+  "keywords": [
+    "pronghorn",
+    "data",
+    "analytics",
+    "dashboards"
+  ],
+  "mcpServers": "./.mcp.codex.json",
+  "hooks": "./hooks/codex.json",
+  "interface": {
+    "displayName": "PronghornAiFoundry",
+    "shortDescription": "Pronghorn data into applications, with a local file viewer",
+    "longDescription": "PronghornAiFoundry answers questions about the data in Pronghorn's hub and computes the exact structure a data application should have. A local pane shows your project's files and the plan as a chart; sign in to the hub from it to use private tables. Nothing about your project leaves your machine.",
+    "developerName": "VibeFoundry",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://vibefoundry.ai",
+    "defaultPrompt": [
+      "giddy up",
+      "What tables are in Pronghorn's hub?",
+      "Build a pipeline from one of our tables"
+    ],
+    "brandColor": "#E74E3D",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png"
+  }
+}
