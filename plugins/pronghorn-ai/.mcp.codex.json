@@ -11,6 +11,7 @@
       "cwd": ".",
       "env": {
         "VF_ORIGIN": "https://mcp-dev.vibefoundry.ai",
+        "VF_HOST": "codex",
         "VF_HUB": "https://pronghorn-hub-m4lkwmlywq-uc.a.run.app"
       }
     }

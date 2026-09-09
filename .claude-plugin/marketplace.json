@@ -7,8 +7,8 @@
   },
   "plugins": [
     {
-      "name": "pronghorn-ai-foundry",
-      "source": "./plugins/pronghorn-ai-foundry",
+      "name": "pronghorn-ai",
+      "source": "./plugins/pronghorn-ai",
       "description": "Ask questions about Pronghorn's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
       "category": "productivity"
     }

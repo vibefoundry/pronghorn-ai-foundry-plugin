@@ -1,6 +1,6 @@
 {
-  "name": "pronghorn-ai-foundry",
-  "version": "0.8.1",
+  "name": "pronghorn-ai",
+  "version": "0.9.0",
   "description": "Ask questions about Pronghorn's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
   "author": {
     "name": "VibeFoundry",
@@ -15,5 +15,5 @@
     "dashboards"
   ],
   "mcpServers": "./.mcp.json",
-  "repository": "https://github.com/vibefoundry/pronghorn-ai-foundry-plugin"
+  "repository": "https://github.com/vibefoundry/pronghorn-ai-plugin"
 }

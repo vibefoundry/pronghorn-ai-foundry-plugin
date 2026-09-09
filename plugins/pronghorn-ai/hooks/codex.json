@@ -3,11 +3,11 @@
   "hooks": {
     "SessionStart": [
       {
-        "matcher": "startup|resume|clear",
         "hooks": [
           {
             "type": "command",
-            "command": "\"${VF_PYTHON:-python3}\" \"${CLAUDE_PLUGIN_ROOT}/server/pane.py\" --open",
+            "command": "python3 ${PLUGIN_ROOT}/server/pane.py --open --host codex",
+            "statusMessage": "Starting the VibeFoundry pane",
             "timeout": 45
           }
         ]

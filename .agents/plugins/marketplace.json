@@ -1,14 +1,14 @@
 {
   "name": "pronghorn",
   "interface": {
-    "displayName": "PronghornAiFoundry"
+    "displayName": "PronghornAI"
   },
   "plugins": [
     {
-      "name": "pronghorn-ai-foundry",
+      "name": "pronghorn-ai",
       "source": {
         "source": "local",
-        "path": "./plugins/pronghorn-ai-foundry"
+        "path": "./plugins/pronghorn-ai"
       },
       "policy": {
         "installation": "AVAILABLE",

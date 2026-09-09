@@ -12,6 +12,7 @@
       ],
       "env": {
         "VF_ORIGIN": "https://mcp-dev.vibefoundry.ai",
+        "VF_HOST": "claude",
         "VF_HUB": "https://pronghorn-hub-m4lkwmlywq-uc.a.run.app"
       }
     }

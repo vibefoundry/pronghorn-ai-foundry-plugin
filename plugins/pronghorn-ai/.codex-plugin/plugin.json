@@ -1,13 +1,13 @@
 {
-  "name": "pronghorn-ai-foundry",
-  "version": "0.8.1",
+  "name": "pronghorn-ai",
+  "version": "0.9.0",
   "description": "Ask questions about Pronghorn's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
   "author": {
     "name": "VibeFoundry",
     "url": "https://vibefoundry.ai"
   },
   "homepage": "https://vibefoundry.ai",
-  "repository": "https://github.com/vibefoundry/pronghorn-ai-foundry-plugin",
+  "repository": "https://github.com/vibefoundry/pronghorn-ai-plugin",
   "license": "MIT",
   "keywords": [
     "pronghorn",
@@ -16,11 +16,12 @@
     "dashboards"
   ],
   "mcpServers": "./.mcp.codex.json",
+  "skills": "./skills/",
   "hooks": "./hooks/codex.json",
   "interface": {
-    "displayName": "PronghornAiFoundry",
+    "displayName": "PronghornAI",
     "shortDescription": "Pronghorn data into applications, with a local file viewer",
-    "longDescription": "PronghornAiFoundry answers questions about the data in Pronghorn's hub and computes the exact structure a data application should have. A local pane shows your project's files and the plan as a chart; sign in to the hub from it to use private tables. Nothing about your project leaves your machine.",
+    "longDescription": "PronghornAI answers questions about the data in Pronghorn's hub and computes the exact structure a data application should have. A local pane shows your project's files and the plan as a chart; sign in to the hub from it to use private tables. Nothing about your project leaves your machine.",
     "developerName": "VibeFoundry",
     "category": "Productivity",
     "capabilities": [
