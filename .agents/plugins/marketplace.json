@@ -1,14 +1,14 @@
 {
-  "name": "pronghorn",
+  "name": "vibefoundry-ai",
   "interface": {
-    "displayName": "PronghornAI"
+    "displayName": "VibeFoundryAI"
   },
   "plugins": [
     {
-      "name": "pronghorn-ai",
+      "name": "vibefoundry-ai",
       "source": {
         "source": "local",
-        "path": "./plugins/pronghorn-ai"
+        "path": "./plugins/vibefoundry-ai"
       },
       "policy": {
         "installation": "AVAILABLE",

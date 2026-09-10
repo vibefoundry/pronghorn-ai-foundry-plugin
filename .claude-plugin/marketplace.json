@@ -1,15 +1,15 @@
 {
-  "name": "pronghorn",
-  "description": "Ask questions about Pronghorn's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
+  "name": "vibefoundry-ai",
+  "description": "Ask questions about VibeFoundry's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
   "owner": {
     "name": "VibeFoundry",
     "url": "https://vibefoundry.ai"
   },
   "plugins": [
     {
-      "name": "pronghorn-ai",
-      "source": "./plugins/pronghorn-ai",
-      "description": "Ask questions about Pronghorn's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
+      "name": "vibefoundry-ai",
+      "source": "./plugins/vibefoundry-ai",
+      "description": "Ask questions about VibeFoundry's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
       "category": "productivity"
     }
   ]

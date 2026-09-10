@@ -1,0 +1,19 @@
+{
+  "name": "vibefoundry-ai",
+  "version": "0.9.5",
+  "description": "Ask questions about VibeFoundry's data, build data apps that follow VibeFoundry's conventions, and open the file viewer pane with one approval.",
+  "author": {
+    "name": "VibeFoundry",
+    "url": "https://vibefoundry.ai"
+  },
+  "homepage": "https://vibefoundry.ai",
+  "license": "MIT",
+  "keywords": [
+    "vibefoundry",
+    "data",
+    "analytics",
+    "dashboards"
+  ],
+  "mcpServers": "./.mcp.json",
+  "repository": "https://github.com/vibefoundry/vibefoundry-ai-plugin"
+}
